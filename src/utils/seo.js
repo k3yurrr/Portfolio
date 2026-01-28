@@ -1,8 +1,8 @@
 // SEO utility functions for dynamic meta tag management
 export const updatePageMeta = ({
-  title = "Pushkar Sharma - MERN Stack Developer",
-  description = "MERN Stack Developer specializing in React, Node.js, MongoDB, and Express. Building scalable web applications with modern technologies.",
-  keywords = "Pushkar Sharma, MERN Developer, React, Node.js, Portfolio",
+  title = "Pushkar Sharma - Front-End Developer",
+  description = "Front-End Developer specializing in React, JavaScript, HTML, and CSS. Building modern web applications.",
+  keywords = "Pushkar Sharma, Front-End Developer, React, JavaScript, Portfolio",
   image = "https://push4ck.site/Pushkar.webp",
   url = "https://push4ck.site",
   type = "website",
@@ -59,27 +59,27 @@ export const updatePageMeta = ({
 // Predefined SEO data for different pages
 export const seoData = {
   home: {
-    title: "Pushkar Sharma - MERN Stack Developer | Full-Stack Web Developer",
+    title: "Pushkar Sharma - Front-End Developer | Full-Stack Web Developer",
     description:
-      "Pushkar Sharma is a skilled MERN Stack Developer from India with expertise in React, Node.js, MongoDB, and Express. Passionate about building scalable web applications and modern UI/UX designs.",
+      "Pushkar Sharma is a skilled Front-End Developer from India with expertise in React, JavaScript, HTML, and CSS. Passionate about building modern web applications and responsive UI/UX designs.",
     keywords:
-      "Pushkar Sharma, MERN Developer, Full Stack Developer, React Developer, Node.js, MongoDB, Express, JavaScript, Web Development, Portfolio",
+      "Pushkar Sharma, Front-End Developer, React Developer, JavaScript, HTML, CSS, Web Development, Portfolio",
     url: "https://push4ck.site/",
   },
   projects: {
-    title: "Projects - Pushkar Sharma | MERN Stack Developer Portfolio",
+    title: "Projects - Pushkar Sharma | Front-End Developer Portfolio",
     description:
-      "Explore Pushkar Sharma's portfolio of MERN stack projects including URLzy, CodeProbe, UIstack, and more. See live demos and source code of full-stack web applications.",
+      "Explore Pushkar Sharma's portfolio of Front-End projects including URLzy, CodeProbe, UIstack, and more. See live demos and source code of modern web applications.",
     keywords:
-      "Pushkar Sharma Projects, React Projects, Node.js Projects, MERN Stack Projects, Web Development Portfolio, URLzy, CodeProbe, UIstack",
+      "Pushkar Sharma Projects, React Projects, JavaScript Projects, Front-End Projects, Web Development Portfolio, URLzy, CodeProbe, UIstack",
     url: "https://push4ck.site/projects",
   },
   contact: {
-    title: "Contact Pushkar Sharma - MERN Stack Developer | Get In Touch",
+    title: "Contact Pushkar Sharma - Front-End Developer | Get In Touch",
     description:
-      "Get in touch with Pushkar Sharma for MERN stack development projects. Available for freelance work, collaborations, and full-time opportunities.",
+      "Get in touch with Pushkar Sharma for Front-End development projects. Available for freelance work, collaborations, and full-time opportunities.",
     keywords:
-      "Contact Pushkar Sharma, Hire MERN Developer, React Developer Contact, Full Stack Developer Hire, Web Development Services",
+      "Contact Pushkar Sharma, Hire Front-End Developer, React Developer Contact, Full Stack Developer Hire, Web Development Services",
     url: "https://push4ck.site/contact",
   },
   privacy: {
@@ -98,7 +98,7 @@ export const generateProjectStructuredData = (projects) => {
     "@context": "https://schema.org",
     "@type": "ItemList",
     name: "Pushkar Sharma's Projects",
-    description: "A collection of MERN stack projects by Pushkar Sharma",
+    description: "A collection of Front-End projects by Pushkar Sharma",
     itemListElement: projects.map((project, index) => ({
       "@type": "CreativeWork",
       position: index + 1,

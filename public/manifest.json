@@ -1,7 +1,7 @@
 {
-    "name": "Pushkar Sharma - MERN Stack Developer Portfolio",
+    "name": "Pushkar Sharma - Front-End Developer Portfolio",
     "short_name": "Pushkar Portfolio",
-    "description": "MERN Stack Developer specializing in React, Node.js, MongoDB, and Express. Building scalable web applications.",
+    "description": "Front-End Developer specializing in React, JavaScript, HTML, and CSS. Building modern web applications.",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#000000",
