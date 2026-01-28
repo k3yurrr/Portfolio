@@ -7,12 +7,6 @@
   NPM_FLAGS = "--include=dev"
 
 [[redirects]]
-  from = "https://push4ck.netlify.app/*"
-  to = "https://push4ck.site/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
