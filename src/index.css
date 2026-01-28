@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --light-background: #ffffff;
+  --light-text: #111827;
+  --light-text-secondary: #6b7280;
+  --light-border: #e5e7eb;
+  --light-card: #f9fafb;
+  --light-accent: #3b82f6;
+  --light-accent-hover: #2563eb;
+
+  /** Break Points **/
+  --breakpoint-xs: 280px;
+  --breakpoint-sm: 320px;
+  --breakpoint-md: 375px;
+  --breakpoint-lg: 768px;
+  --breakpoint-xl: 1024px;
+  --breakpoint-2xl: 1440px;
+}
+
+.dark {
+  @theme {
+    --dark-background: #000000;
+    --dark-text: #ffffff;
+    --dark-text-secondary: #9ca3af;
+    --dark-border: #374151;
+    --dark-card: #111827;
+    --dark-accent: #60a5fa;
+    --dark-accent-hover: #3b82f6;
+  }
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  @apply transition-colors duration-300;
+}
+
+body {
+  @apply bg-[var(--light-background)] dark:bg-[var(--dark-background)] text-[var(--light-text)] dark:text-[var(--dark-text)] transition-colors;
+  font-family: "Inter", sans-serif;
+}
+
+.font-calistoga {
+  font-family: "Calistoga", serif;
+}
+
+.title {
+  margin-top: 16px;
+}

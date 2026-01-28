@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://push4ck.site/sitemap.xml
+
+# Block unnecessary paths
+Disallow: /api/
+Disallow: /admin/
+Disallow: /*.pdf$
+
+# Crawl delay (optional)
+Crawl-delay: 1
