@@ -1,188 +1,187 @@
-import Pushkar from "/Pushkar.webp";
+import Keyur from "/keyur.webp";
 // project images
-import UIstack from "/assets/projectImages/UIstack.webp";
-import CodeProbe from "/assets/projectImages/CodeProbe.webp";
-import HCVAcademy from "/assets/projectImages/HCVAcademy.webp";
-import CodeArc from "/assets/projectImages/CodeArc.webp";
-import PushkarCode from "/assets/projectImages/PushkarCode.webp";
-import URLzy from "/assets/projectImages/URLzy.webp";
+
+import Soc from "/assets/projectImages/soc.webp";
+import Netcrypt from "/assets/projectImages/netcrypt.webp";
 
 const portfolioData = [
   {
     About: {
-      name: "Pushkar",
-      // age: "22",
-      // role: "MERN Developer",
-      // location: "India, HR",
-      heading: "Front-End Developer specializing in React and modern UI development",
-      subHeading: "I build fast, responsive, and scalable web interfaces used in real products.",
-      intro: "Also a badminton coach — discipline and consistency come standard.",
-      photo: Pushkar,
+      name: "Keyur Parmar",
+      age: "23",
+      role: "Cyber Security Analyst",
+      location: "Anand, Gujarat",
+      heading: "Cyber Security Analyst | Threat Detection & Defense",
+      subHeading: "Passionate about securing digital infrastructure through proactive threat analysis and incident response",
+      intro: "Dedicated Cyber Security Analyst with expertise in threat detection, vulnerability assessment, and network security. Committed to protecting systems and data by implementing robust security measures, conducting thorough penetration testing, and staying updated with the latest cybersecurity trends and attack vectors.",
+      photo: Keyur,
     },
     Work: [
-      // Front-End Junior Dev | YORA Apparels
+      // SOC Threat Research Intern | Hacker4Help
       {
-        date: "Aug 2025 - Sep 2025",
-        company: "YORA Apparels",
-        role: "Front-End Junior Developer",
+        date: "Dec 2025 - Present",
+        company: "Hacker4Help",
+        role: "SOC Threat Research Intern",
         points: [
-          "Developed dynamic and user-friendly UI's in ReactJS",
-          "Restructured the whole project, improving site speed by 35%",
-          "Collaborated with designers to implement new features, increasing user engagement by 15%",
+          "Operating SOC setup and SIEM tools for real-time threat monitoring",
+          "Conducting threat research based on active attacks and threat intelligence",
+          "Managing and alerting on Active Directory attacks and generating security alerts",
         ],
       },
-      // Full-Stack Dev | IWS
+      // Cyber Security & Digital Forensics Intern | CID
       {
-        date: "Jan 2024 - Feb 2025",
-        company: "Infinite Web Solutions",
-        role: "Full Stack Developer",
+        date: "Aug 2025 - Nov 2025",
+        company: "CID, Gandhinagar, Gujarat",
+        role: "Cyber Security & Digital Forensics Intern",
         points: [
-          "Developed dynamic UI's in ReactJS, integrated with a C# .NET backend, boosting user efficiency by 20%",
-          "Rewrote key code components, impriving site speed by 35%",
-          "Collaborated with designers to implement new features, increasing user engagement by 15%",
+          "Assisted in ongoing cybercrime investigations and digital evidence analysis",
+          "Supported officers in OSINT, social media tracing, and case documentation",
+          "Learned advanced cyber forensics tools and investigative procedures",
         ],
       },
-      // Front-End | Bharat Intern
-      // {
-      //   date: "Jul 2023 - Aug 2023",
-      //   company: "Bharat Intern",
-      //   role: "Frontend Developer (Intern)",
-      //   points: [
-      //     "Improved usability of an educational platform using ReactJS and TailwindCSS",
-      //     "Designed and developed a portfolio website optimized for SEO, increasing site traffic by 25%",
-      //     "Helped over 150 students secure internships, resulting in a 20% increase in success placements",
-      //   ],
-      // },
-      // Network Enginner | LE&CT
-      // {
-      //   date: "Jun 2023 - Aug 2023",
-      //   company: "LIAM'S Education & Charitable Trust",
-      //   role: "Network Engineer (Intern)",
-      //   points: [
-      //     "Developed custom Python CLI tools for enhanced threat detection",
-      //     "Strengthened cybersecurity infrastructure with firewalls and malware protection",
-      //     "Automated security tests, improving operational effect by 50%",
-      //   ],
-      // },
     ],
     Education: [
       {
-        date: "May 2020 - Aug 2023",
-        company: "Jaipur National University",
-        role: "Bachelor of Computer Application (BCA)",
-        points: ["Specialization in Cyber Security"],
+        date: "2024 - Present",
+        company: "Indus University (IU), Ahmedabad",
+        role: "Master of Science in Cyber Security",
+        points: ["Aggregate: 10.00 CGPA"],
+      },
+      {
+        date: "2021 - 2024",
+        company: "Sardar Patel University, V. V. Nagar, Anand",
+        role: "Bachelor of Computer Applications",
+        points: ["Aggregate: 9.00 CGPA"],
       },
     ],
     projects: [
-      // URLzy
+      // SOC Setup
       {
-        title: "URLzy",
-        image: URLzy,
+        title: "SOC Setup",
+        image: Soc,
         description:
-          "A sleek MERN stack URL shortener for creating clean, manageable short links.",
-        live: "https://urlzy.netlify.app/",
+          "Mini SOC environment using Wazuh SIEM for monitoring Windows and Linux endpoints with incident detection and analysis.",
+        live: "#",
         github: "",
         tech: [
-          "MongoDB",
-          "Express",
+          "Wazuh",
+          "SIEM",
+          "MITRE ATT&CK",
+          "Log Analysis",
+          "Incident Response",
+          "Windows",
+          "Linux",
+        ],
+      },
+      // NetCrypt
+      {
+        title: "NetCrypt",
+        image: Netcrypt,
+        description:
+          "Network Traffic Analyzer & Encrypted Communication Tool - A tool to simulate and monitor real-time network traffic, detecting insecure communication channels and exposed credentials.",
+        live: "#",
+        github: "",
+        tech: [
+          "Python",
+          "Flask",
+          "Scapy",
           "React",
-          "NodeJS",
-          "TailwindCSS",
-          "Netlify",
+          "Tailwind CSS",
+          "SSL/TLS",
+          "Network Analysis",
         ],
-      },
-      // CodeProbe
-      {
-        title: "CodeProbe",
-        image: CodeProbe,
-        description:
-          "A complete pack for learning new skills and testing your knowledge with MCQ questions.",
-        live: "https://codeprobe.netlify.app/",
-        github: "",
-        tech: ["ReactJS", "TailwindCSS", "FormSubmit", "Netlify"],
-      },
-      // UIstack
-      {
-        title: "UIstack",
-        image: UIstack,
-        description:
-          "A complete pack for learning new skills and testing your knowledge with MCQ questions.",
-        live: "https://uistack.netlify.app/",
-        github: "",
-        tech: ["ReactJS", "TailwindCSS", "Netlify"],
-      },
-      // HCVAcademy
-      {
-        title: "HCVAcademy",
-        image: HCVAcademy,
-        description: "Elevate Your Game at HCV Badminton Academy.",
-        live: "https://upcommingshuttlers.netlify.app/",
-        github: "",
-        tech: ["ReactJS", "TailwindCSS", "Express", "Firebase", "Netlify"],
-      },
-      // PushkarCode
-      {
-        title: "PushkarCode",
-        image: PushkarCode,
-        description:
-          "PushkarCode is a learning platform for developers or who want to become.",
-        live: "https://pushkarcode.netlify.app/",
-        github: "",
-        tech: [
-          "ReactJS",
-          "TailwindCSS",
-          "Framer Motion",
-          "Firebase",
-          "SEO",
-          "Netlify",
-        ],
-      },
-      // CodeArc
-      {
-        title: "CodeArc",
-        image: CodeArc,
-        description:
-          "CodeArc is a combination of 3 tools which makes your coding easy.",
-        live: "https://codearc.netlify.app/",
-        github: "",
-        tech: ["ReactJS", "TailwindCSS", "SEO", "Netlify"],
       },
     ],
     blogs: [
-      // Dark Side of Reddit
+      // The Art of the Impersonated Payout
       {
-        title: "The Dark Side of REDDIT!",
+        title: "The Art of the Impersonated Payout: A Deep Dive into Social Engineering Heists",
         description:
-          "The dark side of the reddit, you can find deepm creepy, mysterious stories which you can find nowhere.",
-        url: "https://cyberhub.hashnode.dev/the-dark-side-of-reddit",
-        alt: "reddit scam",
-        date: "15 Oct 2023",
+          "Business Email Compromise (BEC) is one of the most financially damaging cybercrime techniques today, relying less on malware and more on social engineering tactics.",
+        url: "https://medium.com/@k3yurrr",
+        alt: "social engineering heists",
+        date: "Jan 21",
       },
-      // Snuff Movies
+      // AI-Driven Reconnaissance
       {
-        title: "The Darkest Real Videos Sold On The Dark Web!",
-        description: "The real snuff movies posted on dark web",
-        url: "https://cyberhub.hashnode.dev/the-darkest-real-videos-sold-on-the-dark-web",
-        alt: "dark web videos",
-        date: "15 Sep 2023",
-      },
-      // Devin AI Scam?
-      {
-        title: "Is the Devin AI Scam?",
+        title: "AI-Driven Reconnaissance: The New Frontier of OSINT for the Modern Hacker",
         description:
-          "Is DevinAI a scam or a new revolution in the software industry?",
-        url: "https://cyberhub.hashnode.dev/devin-ai-exposed",
-        alt: "devin ai scam",
-        date: "16 Apr 2024",
+          "Whether it is cyber defense or offense, information reigns supreme. Explore how AI is transforming OSINT capabilities for both ethical and malicious actors.",
+        url: "https://medium.com/@k3yurrr",
+        alt: "OSINT AI reconnaissance",
+        date: "Jan 19",
       },
-      // Zero Day Attack on Apple Devices
+      // Inside the Web Crawler Workflow
       {
-        title:
-          "Apple's Devices Under Attack: New Zero-Day Flaw Discovered - Here's What You Need to Know!",
-        description: "Zero day attack found in Apple devices",
-        url: "https://cyberhub.hashnode.dev/apples-devices-under-attack-new-zero-day-flaw-discovered-heres-what-you-need-to-know",
-        alt: "zero day flaw",
-        date: "23 Jan 2003",
+        title: "Inside the Web Crawler Workflow: Architecture Mapping and Risk Discovery",
+        description:
+          "Web crawlers play a significant role in cybersecurity, automated tools tasked with the systematic exploration and analysis of web infrastructure for vulnerabilities.",
+        url: "https://medium.com/@k3yurrr",
+        alt: "web crawler security",
+        date: "Jan 2",
+      },
+      // Networking: The Hacker's Alpha and Omega
+      {
+        title: "Networking: The Hacker's Alpha and Omega!",
+        description:
+          "Networking is the foundation of hacking and cybersecurity, not just a supporting skill. Every cyberattack starts with reconnaissance through networking.",
+        url: "https://medium.com/@k3yurrr",
+        alt: "networking hacking",
+        date: "Dec 20, 2025",
+      },
+      // Sanchar Saathi
+      {
+        title: "Sanchar Saathi: The app everyone's buzzing about!",
+        description:
+          "The Sanchar Saathi app has emerged as a significant digital initiative designed to empower citizens against mobile phone fraud and cybercrimes.",
+        url: "https://medium.com/@k3yurrr",
+        alt: "sanchar saathi app",
+        date: "Dec 8, 2025",
+      },
+      // Qubes OS
+      {
+        title: "Qubes OS: The Digital Fortress and the Forensic Investigator's Nightmare!",
+        description:
+          "In an increasingly hostile digital landscape, Qubes OS stands out as a powerful security-focused operating system with advanced isolation capabilities.",
+        url: "https://medium.com/@k3yurrr",
+        alt: "qubes os security",
+        date: "Dec 6, 2025",
+      },
+      // VM Networking
+      {
+        title: "Understanding VM Networking",
+        description:
+          "Virtualization has completely changed the way computing resources are managed by allowing multiple operating systems to run on a single physical machine.",
+        url: "https://medium.com/@k3yurrr",
+        alt: "vm networking",
+        date: "Dec 2, 2025",
+      },
+      // YOUR PC'S DIGITAL SHIELDS
+      {
+        title: "YOUR PC'S DIGITAL SHIELDS",
+        description:
+          "Your computer is equipped with inbuilt security features that help mitigate potential vulnerabilities to exploit the system.",
+        url: "https://medium.com/@k3yurrr",
+        alt: "pc security shields",
+        date: "Nov 28, 2025",
+      },
+      // Wazuh Setup
+      {
+        title: "Setting up Wazuh in the Windows and deploying Windows agent",
+        description:
+          "Wazuh is a free, open-source security platform that unifies Extended Detection and Response (XDR) and Security Information and Event Management (SIEM).",
+        url: "https://medium.com/@k3yurrr",
+        alt: "wazuh windows setup",
+        date: "Nov 4, 2025",
+      },
+      // Phishing Evolution
+      {
+        title: "How phishing is evolving and getting more sophisticated",
+        description:
+          "Phishing is one of the most used and oldest cyber attacks by cybercriminals. Phishing has affected many big companies and organizations worldwide.",
+        url: "https://medium.com/@k3yurrr",
+        alt: "phishing attacks",
+        date: "Jul 16, 2025",
       },
     ],
   },

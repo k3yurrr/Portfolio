@@ -108,7 +108,7 @@ const Contact = () => {
   return (
     <>
       <main className="max-w-4xl mx-auto px-4 py-12">
-        <div className="grid md:grid-cols-2 gap-12">
+        <div className="grid lg:grid-cols-2 gap-12">
           {/* Contact Form */}
           <section aria-label="Contact form">
             <h1 className="text-4xl font-bold mb-6 font-calistoga">

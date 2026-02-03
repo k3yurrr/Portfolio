@@ -1,16 +1,17 @@
-const CACHE_NAME = "pushkar-portfolio-v1";
+const CACHE_NAME = "keyur-portfolio-v1";
 const urlsToCache = [
   "/",
   "/projects",
   "/contact",
   "/privacy",
-  "/Pushkar.webp",
+  "/keyur.png",
   "/Push4ck.png",
   "/assets/projectImages/UIstack.webp",
   "/assets/projectImages/CodeProbe.webp",
+  "/assets/projectImages/soc.webp",
   "/assets/projectImages/HCVAcademy.webp",
   "/assets/projectImages/CodeArc.webp",
-  "/assets/projectImages/PushkarCode.webp",
+  "/assets/projectImages/netcrypt.webp",
   "/assets/projectImages/URLzy.webp",
 ];
 

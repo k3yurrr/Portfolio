@@ -1,9 +1,9 @@
 // SEO utility functions for dynamic meta tag management
 export const updatePageMeta = ({
-  title = "Pushkar Sharma - Front-End Developer",
-  description = "Front-End Developer specializing in React, JavaScript, HTML, and CSS. Building modern web applications.",
-  keywords = "Pushkar Sharma, Front-End Developer, React, JavaScript, Portfolio",
-  image = "https://push4ck.site/Pushkar.webp",
+  title = "Keyur Parmar - Front-End Developer",
+  description = "Cyber Security Analyst specializing in SOC & Threat Research. MSc in Cyber Security.",
+  keywords = "Keyur Parmar, Cyber Security Analyst, SOC, Threat Research, MSc Cyber Security",
+  image = "https://push4ck.site/keyur.png",
   url = "https://push4ck.site",
   type = "website",
 }) => {
@@ -59,35 +59,35 @@ export const updatePageMeta = ({
 // Predefined SEO data for different pages
 export const seoData = {
   home: {
-    title: "Pushkar Sharma - Front-End Developer | Full-Stack Web Developer",
+    title: "Keyur Parmar - Front-End Developer | Full-Stack Web Developer",
     description:
-      "Pushkar Sharma is a skilled Front-End Developer from India with expertise in React, JavaScript, HTML, and CSS. Passionate about building modern web applications and responsive UI/UX designs.",
+      "Keyur Parmar is a skilled Front-End Developer from India with expertise in React, JavaScript, HTML, and CSS. Passionate about building modern web applications and responsive UI/UX designs.",
     keywords:
-      "Pushkar Sharma, Front-End Developer, React Developer, JavaScript, HTML, CSS, Web Development, Portfolio",
+      "Keyur Parmar, Front-End Developer, React Developer, JavaScript, HTML, CSS, Web Development, Portfolio",
     url: "https://push4ck.site/",
   },
   projects: {
-    title: "Projects - Pushkar Sharma | Front-End Developer Portfolio",
+    title: "Projects - Keyur Parmar | Front-End Developer Portfolio",
     description:
-      "Explore Pushkar Sharma's portfolio of Front-End projects including URLzy, CodeProbe, UIstack, and more. See live demos and source code of modern web applications.",
+      "Explore Keyur Parmar's portfolio of Front-End projects including URLzy, CodeProbe, UIstack, and more. See live demos and source code of modern web applications.",
     keywords:
-      "Pushkar Sharma Projects, React Projects, JavaScript Projects, Front-End Projects, Web Development Portfolio, URLzy, CodeProbe, UIstack",
+      "Keyur Parmar Projects, React Projects, JavaScript Projects, Front-End Projects, Web Development Portfolio, URLzy, CodeProbe, UIstack",
     url: "https://push4ck.site/projects",
   },
   contact: {
-    title: "Contact Pushkar Sharma - Front-End Developer | Get In Touch",
+    title: "Contact Keyur Parmar - Front-End Developer | Get In Touch",
     description:
-      "Get in touch with Pushkar Sharma for Front-End development projects. Available for freelance work, collaborations, and full-time opportunities.",
+      "Get in touch with Keyur Parmar for Front-End development projects. Available for freelance work, collaborations, and full-time opportunities.",
     keywords:
-      "Contact Pushkar Sharma, Hire Front-End Developer, React Developer Contact, Full Stack Developer Hire, Web Development Services",
+      "Contact Keyur Parmar, Hire Front-End Developer, React Developer Contact, Full Stack Developer Hire, Web Development Services",
     url: "https://push4ck.site/contact",
   },
   privacy: {
-    title: "Privacy Policy - Pushkar Sharma Portfolio",
+    title: "Privacy Policy - Keyur Parmar Portfolio",
     description:
-      "Privacy policy for Pushkar Sharma's portfolio website. Learn about data collection, usage, and protection practices.",
+      "Privacy policy for Keyur Parmar's portfolio website. Learn about data collection, usage, and protection practices.",
     keywords:
-      "Privacy Policy, Pushkar Sharma, Data Protection, Website Privacy",
+      "Privacy Policy, Keyur Parmar, Data Protection, Website Privacy",
     url: "https://push4ck.site/privacy",
   },
 };
@@ -97,8 +97,8 @@ export const generateProjectStructuredData = (projects) => {
   return {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: "Pushkar Sharma's Projects",
-    description: "A collection of Front-End projects by Pushkar Sharma",
+    name: "Keyur Parmar's Projects",
+    description: "A collection of Front-End projects by Keyur Parmar",
     itemListElement: projects.map((project, index) => ({
       "@type": "CreativeWork",
       position: index + 1,
@@ -108,7 +108,7 @@ export const generateProjectStructuredData = (projects) => {
       image: project.image,
       author: {
         "@type": "Person",
-        name: "Pushkar Sharma",
+        name: "Keyur Parmar",
       },
       keywords: project.tech?.join(", "),
       genre: "Web Application",

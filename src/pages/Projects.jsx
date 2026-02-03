@@ -36,7 +36,7 @@ const Projects = () => {
     <>
       <main className="mx-auto max-w-3xl xs:px-4 md:px-8 py-6 items-center">
         <h1 className="font-calistoga xs:text-3xl md:text-5xl">my projects.</h1>
-        <div className="grid xs:grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+        <div className="grid xs:grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
           {portfolioData[0].projects.map((project, idx) => (
             <ProjectBox key={idx} project={project} />
           ))}

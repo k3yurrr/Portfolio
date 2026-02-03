@@ -9,22 +9,18 @@ const Privacy = () => {
   return (
     <div className="max-w-3xl mx-auto px-8 py-12">
       <h1 className="text-5xl font-calistoga mb-10">Privacy Policy</h1>
-      <p>Last Updated: Jun 2025</p>
+      <p>Last Updated: Feb 2026</p>
 
       <h2 className="text-3xl font-calistoga mt-16 mb-6">Hey, Welcome!</h2>
       <p>
-        Thanks for stopping by! This Privacy Policy is just here to let you know
-        how things work around here. My website is mainly about showcasing my
-        work, and I'm all about respecting your privacy.
+        Thanks for visiting my portfolio! This Privacy Policy outlines how I handle your data and personal information. As a Cyber Security Analyst, I take your privacy and data protection seriously. This site is designed to showcase my cybersecurity expertise and projects, while maintaining the highest standards of confidentiality.
       </p>
 
       <h2 className="text-3xl font-calistoga mt-12 mb-6">
         What Information I Collect (Hint: Not Much)
       </h2>
       <p>
-        Honestly, this is just a static portfolio site, so I don't actively
-        collect any personal information. There's no account creation, no
-        tracking cookies, and definitely no sneaky data gathering.
+        This is a static portfolio site with minimal data collection. I don't use account creation, tracking cookies, or invasive data gathering methods. Being a cybersecurity professional, I understand the importance of privacy-first design principles.
       </p>
 
       <h3 className="text-2xl font-semibold mt-6 mb-3">
@@ -81,19 +77,11 @@ const Privacy = () => {
 
       <h2 className="text-3xl font-calistoga mt-6 mb-3">Got Questions?</h2>
       <p>
-        If you have any questions, concerns, or just want to say hi, drop me an
-        email at{" "}
-        <a
-          href="mailto:push4ck@gmail.com"
-          className="hover:text-blue-500 transition-colors"
-        >
-          push4ck@gmail.com
-        </a>{" "}
-        or use the{" "}
+        If you have any questions, concerns, or just want to discuss cybersecurity, feel free to reach out through the{" "}
         <Link to="/contact" className="hover:text-blue-500 transition-colors">
           contact form
         </Link>
-        . I'd love to hear from you!
+        {" "}or connect with me on my social profiles. I'm always happy to discuss security matters and collaborate on projects!
       </p>
     </div>
   );

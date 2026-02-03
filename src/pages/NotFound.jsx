@@ -6,9 +6,9 @@ import { updatePageMeta } from "../utils/seo";
 const NotFound = () => {
   useEffect(() => {
     updatePageMeta({
-      title: "404 - Page Not Found | Pushkar Sharma Portfolio",
+      title: "404 - Page Not Found | Keyur Parmar Portfolio",
       description:
-        "Sorry, the page you're looking for doesn't exist. Return to Pushkar Sharma's portfolio homepage.",
+        "Sorry, the page you're looking for doesn't exist. Return to Keyur Parmar's portfolio homepage.",
       url: window.location.href,
     });
   }, []);

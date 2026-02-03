@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { TbFileDownload } from "react-icons/tb";
 import { FiGithub, FiLinkedin, FiMail } from "react-icons/fi";
-import Resume from "../data/Pushkar_Sharma_Frontend_Resume.pdf";
+import Resume from "../data/Keyur_resume.pdf";
 import Tabs from "../components/Tabs";
 import { TbArrowRight } from "react-icons/tb";
 import ProjectBox from "../components/ProjectBox";
@@ -24,12 +24,12 @@ const HomePage = () => {
       >
         {/* about */}
         <section
-          aria-label="About Pushkar Sharma"
+          aria-label="About Keyur Parmar"
           className="flex xs:flex-col xs:justify-center xs:items-center lg:flex-row xs:space-y-8 gap-12 xs:gap-4"
         >
           <div className="mt-8 w-fit">
             <h1 className="font-calistoga text-6xl leading-tight">
-              hi, {portfolioData[0].About.name} here.
+              Hi, {portfolioData[0].About.name} here!
             </h1>
             <p className="mt-4">
               {/* {portfolioData[0].About.age}yo {portfolioData[0].About.role} from{" "}
@@ -52,7 +52,7 @@ const HomePage = () => {
               <div className="w-fit flex items-center gap-4 sm:gap-6">
                 <Link
                   to="https://www.linkedin.com/in/push4ck/"
-                  aria-label="pushkar sharma linkedin account"
+                  aria-label="Keyur Parmar linkedin account"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -63,7 +63,7 @@ const HomePage = () => {
                 </Link>
                 <Link
                   to="https://github.com/Push4ck"
-                  aria-label="pushkar sharma github account"
+                  aria-label="Keyur Parmar github account"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -74,7 +74,7 @@ const HomePage = () => {
                 </Link>
                 <Link
                   to="mailto:push4ck@gmail.com"
-                  aria-label="pushkar sharma gmail account"
+                  aria-label="Keyur Parmar gmail account"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -89,7 +89,7 @@ const HomePage = () => {
           <div className="w-fit flex items-center justify-center">
             <OptimizedImage
               src={portfolioData[0].About.photo}
-              alt="pushkar sharma profile picture"
+              alt="Keyur Parmar profile picture"
               className="xs:w-64 md:w-72 xl:w-84 rounded-xl object-cover"
               priority={true}
             />
