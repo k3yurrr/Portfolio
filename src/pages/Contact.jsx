@@ -203,7 +203,7 @@ const Contact = () => {
                   id="message"
                   name="message"
                   rows="6"
-                  placeholder="Tell me about your project, ask questions, or just say hello! I'd love to hear from you."
+                  placeholder="Say! I'd love to hear from you."
                   className={`w-full bg-transparent border-2 p-3 rounded-lg resize-none transition-colors placeholder:text-[var(--light-text-secondary)] dark:placeholder:text-[var(--dark-text-secondary)] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 ${
                     errors.message
                       ? "border-red-500 focus:border-red-500"
@@ -273,10 +273,10 @@ const Contact = () => {
                 <div>
                   <h3 className="font-semibold">Email</h3>
                   <a
-                    href="mailto:push4ck@gmail.com"
+                    href="mailto:keyurparmar182003@gmail.com"
                     className="text-[var(--light-text-secondary)] dark:text-[var(--dark-text-secondary)] hover:text-blue-500 transition-colors"
                   >
-                    push4ck@gmail.com
+                    keyurparmar182003@gmail.com
                   </a>
                 </div>
               </div>
@@ -288,7 +288,7 @@ const Contact = () => {
                 <div>
                   <h3 className="font-semibold">Location</h3>
                   <p className="text-[var(--light-text-secondary)] dark:text-[var(--dark-text-secondary)]">
-                    Haryana, India
+                    Gujarat, India
                   </p>
                 </div>
               </div>
@@ -308,10 +308,10 @@ const Contact = () => {
 
             {/* Social Links */}
             <div className="pt-8 border-t border-[var(--light-border)] dark:border-[var(--dark-border)]">
-              <h3 className="font-semibold mb-4">Connect with me</h3>
+              <h3 className="font-semibold mb-4">Connect Me</h3>
               <div className="flex gap-4">
                 <a
-                  href="https://linkedin.com/in/push4ck"
+                  href="https://www.linkedin.com/in/keyur-parmar-661447282/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-sm"
@@ -319,7 +319,7 @@ const Contact = () => {
                   LinkedIn
                 </a>
                 <a
-                  href="https://github.com/Push4ck"
+                  href="https://github.com/k3yurrr"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-900 transition-colors text-sm"

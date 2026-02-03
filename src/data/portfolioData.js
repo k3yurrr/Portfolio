@@ -1,10 +1,4 @@
 import Keyur from "/keyur.webp";
-// project images
-import UIstack from "/assets/projectImages/UIstack.webp";
-import CodeProbe from "/assets/projectImages/CodeProbe.webp";
-import HCVAcademy from "/assets/projectImages/HCVAcademy.webp";
-import CodeArc from "/assets/projectImages/CodeArc.webp";
-import URLzy from "/assets/projectImages/URLzy.webp";
 
 const portfolioData = [
   {
@@ -60,7 +54,6 @@ const portfolioData = [
       // SOC Setup
       {
         title: "SOC Setup",
-        image: CodeProbe,
         description:
           "Mini SOC environment using Wazuh SIEM for monitoring Windows and Linux endpoints with incident detection and analysis.",
         live: "#",
@@ -78,7 +71,6 @@ const portfolioData = [
       // NetCrypt
       {
         title: "NetCrypt",
-        image: UIstack,
         description:
           "Network Traffic Analyzer & Encrypted Communication Tool - A tool to simulate and monitor real-time network traffic, detecting insecure communication channels and exposed credentials.",
         live: "#",

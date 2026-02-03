@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { FiGlobe, FiGithub } from "react-icons/fi";
-import OptimizedImage from "./OptimizedImage";
+// thumbnails hidden by request
 
 const ProjectBox = ({ project }) => {
   const handleExternalLink = (url) => (event) => {
@@ -11,15 +11,7 @@ const ProjectBox = ({ project }) => {
   return (
     <>
       <div className="border-2 border-[var(--light-border)] dark:border-[var(--dark-border)] rounded-xl flex flex-col overflow-hidden">
-        <div className="h-auto md:p-6 xs:p-3">
-          <OptimizedImage
-            src={project.image}
-            alt={`${project.title} project screenshot`}
-            className="w-full h-full object-contain rounded-md"
-            width="400"
-            height="250"
-          />
-        </div>
+        {/* project thumbnail intentionally hidden */}
         <div className="md:p-6 xs:p-3">
           <h1 className="md:text-xl font-semibold my-1 line-clamp-1 xs:text-md">
             {project.title}
