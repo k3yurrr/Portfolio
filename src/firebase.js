@@ -3,9 +3,9 @@ import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
   apiKey: "AIzaSyBjuMLz4blavG3-DpCjijqfJxBUCG4dEaE",
-  authDomain: "portfolio-push4ck.firebaseapp.com",
-  projectId: "portfolio-push4ck",
-  storageBucket: "portfolio-push4ck.firebasestorage.app",
+  authDomain: "portfolio-k3yur.firebaseapp.com",
+  projectId: "portfolio-k3yur",
+  storageBucket: "portfolio-k3yur.firebasestorage.app",
   messagingSenderId: "269446474006",
   appId: "1:269446474006:web:6dfd0f1fec43899ca74837",
   measurementId: "G-XKDHQDJ2HW",

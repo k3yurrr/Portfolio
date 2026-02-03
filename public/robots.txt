@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://push4ck.site/sitemap.xml
+Sitemap: https://k3yur.in/sitemap.xml
 
 # Block unnecessary paths
 Disallow: /api/

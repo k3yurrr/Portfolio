@@ -5,7 +5,7 @@ const urlsToCache = [
   "/contact",
   "/privacy",
   "/keyur.png",
-  "/Push4ck.png",
+  "/keyur.png",
   "/assets/projectImages/UIstack.webp",
   "/assets/projectImages/CodeProbe.webp",
   "/assets/projectImages/soc.webp",

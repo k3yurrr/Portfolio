@@ -1,10 +1,10 @@
 // SEO utility functions for dynamic meta tag management
 export const updatePageMeta = ({
-  title = "Keyur Parmar - Front-End Developer",
+  title = "Keyur Parmar - Cyber Security Analyst",
   description = "Cyber Security Analyst specializing in SOC & Threat Research. MSc in Cyber Security.",
   keywords = "Keyur Parmar, Cyber Security Analyst, SOC, Threat Research, MSc Cyber Security",
-  image = "https://push4ck.site/keyur.png",
-  url = "https://push4ck.site",
+  image = "https://k3yur.in/keyur.png",
+  url = "https://k3yur.in",
   type = "website",
 }) => {
   // Update document title
@@ -59,28 +59,28 @@ export const updatePageMeta = ({
 // Predefined SEO data for different pages
 export const seoData = {
   home: {
-    title: "Keyur Parmar - Front-End Developer | Full-Stack Web Developer",
+    title: "Keyur Parmar - Cyber Security Analyst",
     description:
-      "Keyur Parmar is a skilled Front-End Developer from India with expertise in React, JavaScript, HTML, and CSS. Passionate about building modern web applications and responsive UI/UX designs.",
+      "Keyur Parmar is a skilled Cyber Security Analyst from India with expertise in React, JavaScript, HTML, and CSS. Passionate about building modern web applications and responsive UI/UX designs.",
     keywords:
-      "Keyur Parmar, Front-End Developer, React Developer, JavaScript, HTML, CSS, Web Development, Portfolio",
-    url: "https://push4ck.site/",
+      "Keyur Parmar, Cyber Security Analyst, SOC Analyst, Threat Research, MSc Cyber Security",
+    url: "https://k3yur.in/",
   },
   projects: {
-    title: "Projects - Keyur Parmar | Front-End Developer Portfolio",
+    title: "Projects - Keyur Parmar | Cyber Security Analyst Portfolio",
     description:
-      "Explore Keyur Parmar's portfolio of Front-End projects including URLzy, CodeProbe, UIstack, and more. See live demos and source code of modern web applications.",
+      "Explore Keyur Parmar's portfolio of Cyber Security projects including URLzy, CodeProbe, UIstack, and more. See live demos and source code of modern web applications.",
     keywords:
-      "Keyur Parmar Projects, React Projects, JavaScript Projects, Front-End Projects, Web Development Portfolio, URLzy, CodeProbe, UIstack",
-    url: "https://push4ck.site/projects",
+      "Keyur Parmar Projects, React Projects, JavaScript Projects, Cyber Security Projects, Web Development Portfolio, URLzy, CodeProbe, UIstack",
+    url: "https://k3yur.in/projects",
   },
   contact: {
-    title: "Contact Keyur Parmar - Front-End Developer | Get In Touch",
+    title: "Contact Keyur Parmar - Cyber Security Analyst | Get In Touch",
     description:
-      "Get in touch with Keyur Parmar for Front-End development projects. Available for freelance work, collaborations, and full-time opportunities.",
+      "Get in touch with Keyur Parmar for Cyber Security development projects. Available for freelance work, collaborations, and full-time opportunities.",
     keywords:
-      "Contact Keyur Parmar, Hire Front-End Developer, React Developer Contact, Full Stack Developer Hire, Web Development Services",
-    url: "https://push4ck.site/contact",
+      "Contact Keyur Parmar, Hire Cyber Security Analyst, SOC Analyst, Security Analyst, RED Teaming",
+    url: "https://k3yur.in/contact",
   },
   privacy: {
     title: "Privacy Policy - Keyur Parmar Portfolio",
@@ -88,7 +88,7 @@ export const seoData = {
       "Privacy policy for Keyur Parmar's portfolio website. Learn about data collection, usage, and protection practices.",
     keywords:
       "Privacy Policy, Keyur Parmar, Data Protection, Website Privacy",
-    url: "https://push4ck.site/privacy",
+    url: "https://k3yur.in/privacy",
   },
 };
 

@@ -8,9 +8,9 @@ import { initGA, initWebVitals, trackPerformance } from "./utils/analytics";
 import "./utils/performanceMonitor"; // Auto-initializes in dev mode
 
 // Redirect from Netlify URL to primary domain
-if (window.location.hostname === "push4ck.netlify.app") {
+if (window.location.hostname === "k3yur.netlify.app") {
   window.location.replace(
-    `https://push4ck.site${window.location.pathname}${window.location.search}${window.location.hash}`
+    `https://k3yur.in${window.location.pathname}${window.location.search}${window.location.hash}`
   );
 }
 

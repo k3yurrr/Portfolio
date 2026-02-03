@@ -51,7 +51,7 @@ const HomePage = () => {
               </div>
               <div className="w-fit flex items-center gap-4 sm:gap-6">
                 <Link
-                  to="https://www.linkedin.com/in/push4ck/"
+                  to="https://www.linkedin.com/in/keyur-parmar-661447282/"
                   aria-label="Keyur Parmar linkedin account"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -62,7 +62,7 @@ const HomePage = () => {
                   />
                 </Link>
                 <Link
-                  to="https://github.com/Push4ck"
+                  to="https://github.com/k3yurrr"
                   aria-label="Keyur Parmar github account"
                   target="_blank"
                   rel="noopener noreferrer"
