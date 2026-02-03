@@ -115,9 +115,7 @@ const Contact = () => {
               let's work together.
             </h1>
             <p className="text-[var(--light-text-secondary)] dark:text-[var(--dark-text-secondary)] mb-8">
-              I'm always open to discussing new opportunities, interesting
-              projects, and creative collaborations. Let's create something
-              amazing together!
+              I'm always open to discussing new opportunities, interesting projects, and creative collaborations. Let's create something amazing together!
             </p>
 
             <form onSubmit={handleSubmit} className="space-y-6" noValidate>

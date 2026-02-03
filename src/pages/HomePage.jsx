@@ -73,7 +73,7 @@ const HomePage = () => {
                   />
                 </Link>
                 <Link
-                  to="mailto:push4ck@gmail.com"
+                  to="mailto:keyurparmar182003@gmail.com"
                   aria-label="Keyur Parmar gmail account"
                   target="_blank"
                   rel="noopener noreferrer"
