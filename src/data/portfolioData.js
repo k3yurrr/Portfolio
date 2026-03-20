@@ -85,6 +85,35 @@ const portfolioData = [
           "Network Analysis",
         ],
       },
+      // DeQode
+      {
+        title: "DeQode",
+        description:
+          "A Python-based forensic tool that analyzes QR codes for phishing threats. It decodes QR codes, unmasks shortened URLs, performs heuristic analysis on suspicious patterns, and checks against VirusTotal's 94 security engines to provide SAFE/SUSPICIOUS/MALICIOUS verdicts.",
+        live: "#",
+        github: "https://github.com/k3yurrr/DeQode",
+        tech: [
+          "Python",
+          "OpenCV",
+          "pyzbar",
+          "Requests",
+          "VirusTotal API",
+          "Tkinter",
+        ],
+      },
+      // PromptShield
+      {
+        title: "PromptShield: AI Data Leakage Guard",
+        description:
+          "A lightweight browser extension that detects sensitive information in AI prompts before submission. It scans for API keys, cloud credentials, SSH keys, social security numbers, credit cards, and internal keywords, offering options to redact or cancel potentially risky prompts.",
+        live: "#",
+        github: "",
+        tech: [
+          "JavaScript",
+          "Browser APIs",
+          "Security",
+        ],
+      },
     ],
     blogs: [
       // The Art of the Impersonated Payout
