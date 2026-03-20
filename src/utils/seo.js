@@ -98,7 +98,7 @@ export const generateProjectStructuredData = (projects) => {
     "@context": "https://schema.org",
     "@type": "ItemList",
     name: "Keyur Parmar's Projects",
-    description: "A collection of Front-End projects by Keyur Parmar",
+    description: "A collection of projects by Keyur Parmar",
     itemListElement: projects.map((project, index) => ({
       "@type": "CreativeWork",
       position: index + 1,
