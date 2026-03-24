@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 import { updatePageMeta } from "../utils/seo";
 
@@ -12,6 +12,7 @@ const NotFound = () => {
       url: window.location.href,
     });
   }, []);
+
   return (
     <div className="min-h-screen flex items-center justify-center px-4 bg-[var(--light-background)] dark:bg-[var(--dark-background)]">
       <div className="text-center max-w-2xl mx-auto">

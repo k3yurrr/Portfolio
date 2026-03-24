@@ -21,18 +21,24 @@ const Footer = () => {
             <Link
               to="https://www.linkedin.com/in/keyur-parmar-661447282/"
               aria-label="Keyur Parmar linkedin account"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <FiLinkedin className="hover:text-[var(--light-text-secondary)] dark:hover:text-[var(--dark-text-secondary)]" />
             </Link>
             <Link
               to="https://github.com/k3yurrr"
               aria-label="Keyur Parmar github account"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <FiGithub className="hover:text-[var(--light-text-secondary)] dark:hover:text-[var(--dark-text-secondary)]" />
             </Link>
             <Link
-              to="mailto:Keyurparmar182003@gmail.com"
+              to="mailto:keyurparmar182003@gmail.com"
               aria-label="Keyur Parmar gmail account"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <FiMail className="hover:text-[var(--light-text-secondary)] dark:hover:text-[var(--dark-text-secondary)]" />
             </Link>

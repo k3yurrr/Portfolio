@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { db } from "../firebase";
 import { collection, addDoc, Timestamp } from "firebase/firestore";
-import { FiSend, FiMail, FiPhone, FiMapPin } from "react-icons/fi";
+import { FiSend, FiMail, FiClock, FiMapPin } from "react-icons/fi";
 import toast from "react-hot-toast";
 import { Link } from "react-router-dom";
 import { updatePageMeta, seoData } from "../utils/seo";
@@ -87,7 +87,6 @@ const Contact = () => {
         createdAt: Timestamp.now(),
       });
 
-      // Track successful form submission
       trackEvent("form_submit", "contact", "success");
 
       toast.success("Message sent successfully!", { id: loading });
@@ -96,7 +95,6 @@ const Contact = () => {
     } catch (err) {
       console.error("Error:", err);
 
-      // Track form submission error
       trackEvent("form_submit", "contact", "error");
 
       toast.error("Failed to send message.", { id: loading });
@@ -115,7 +113,9 @@ const Contact = () => {
               let's work together.
             </h1>
             <p className="text-[var(--light-text-secondary)] dark:text-[var(--dark-text-secondary)] mb-8">
-              I'm always open to discussing new opportunities, interesting projects, and creative collaborations. Let's create something amazing together!
+              I'm always open to discussing new opportunities, interesting
+              projects, and creative collaborations. Let's create something
+              amazing together!
             </p>
 
             <form onSubmit={handleSubmit} className="space-y-6" noValidate>
@@ -132,11 +132,10 @@ const Contact = () => {
                     type="text"
                     name="name"
                     placeholder="Enter your full name"
-                    className={`w-full bg-transparent border-2 p-3 rounded-lg transition-colors placeholder:text-[var(--light-text-secondary)] dark:placeholder:text-[var(--dark-text-secondary)] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 ${
-                      errors.name
-                        ? "border-red-500 focus:border-red-500"
-                        : "border-[var(--light-border)] dark:border-[var(--dark-border)]"
-                    }`}
+                    className={`w-full bg-transparent border-2 p-3 rounded-lg transition-colors placeholder:text-[var(--light-text-secondary)] dark:placeholder:text-[var(--dark-text-secondary)] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 ${errors.name
+                      ? "border-red-500 focus:border-red-500"
+                      : "border-[var(--light-border)] dark:border-[var(--dark-border)]"
+                      }`}
                     value={form.name}
                     onChange={handleChange}
                     onBlur={handleBlur}
@@ -167,11 +166,10 @@ const Contact = () => {
                     type="email"
                     name="email"
                     placeholder="Enter your email address"
-                    className={`w-full bg-transparent border-2 p-3 rounded-lg transition-colors placeholder:text-[var(--light-text-secondary)] dark:placeholder:text-[var(--dark-text-secondary)] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 ${
-                      errors.email
-                        ? "border-red-500 focus:border-red-500"
-                        : "border-[var(--light-border)] dark:border-[var(--dark-border)]"
-                    }`}
+                    className={`w-full bg-transparent border-2 p-3 rounded-lg transition-colors placeholder:text-[var(--light-text-secondary)] dark:placeholder:text-[var(--dark-text-secondary)] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 ${errors.email
+                      ? "border-red-500 focus:border-red-500"
+                      : "border-[var(--light-border)] dark:border-[var(--dark-border)]"
+                      }`}
                     value={form.email}
                     onChange={handleChange}
                     onBlur={handleBlur}
@@ -190,6 +188,7 @@ const Contact = () => {
                   )}
                 </div>
               </div>
+
               <div>
                 <label
                   htmlFor="message"
@@ -202,11 +201,10 @@ const Contact = () => {
                   name="message"
                   rows="6"
                   placeholder="Say! I'd love to hear from you."
-                  className={`w-full bg-transparent border-2 p-3 rounded-lg resize-none transition-colors placeholder:text-[var(--light-text-secondary)] dark:placeholder:text-[var(--dark-text-secondary)] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 ${
-                    errors.message
-                      ? "border-red-500 focus:border-red-500"
-                      : "border-[var(--light-border)] dark:border-[var(--dark-border)]"
-                  }`}
+                  className={`w-full bg-transparent border-2 p-3 rounded-lg resize-none transition-colors placeholder:text-[var(--light-text-secondary)] dark:placeholder:text-[var(--dark-text-secondary)] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 ${errors.message
+                    ? "border-red-500 focus:border-red-500"
+                    : "border-[var(--light-border)] dark:border-[var(--dark-border)]"
+                    }`}
                   value={form.message}
                   onChange={handleChange}
                   onBlur={handleBlur}
@@ -230,11 +228,10 @@ const Contact = () => {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className={`w-full md:w-auto rounded-lg font-medium flex items-center justify-center px-6 py-3 gap-2 border-2 transition ${
-                  isSubmitting
-                    ? "bg-gray-400 text-gray-600 border-gray-400 cursor-not-allowed"
-                    : "bg-blue-500 text-white border-blue-500 hover:bg-blue-600 hover:border-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 cursor-pointer"
-                }`}
+                className={`w-full md:w-auto rounded-lg font-medium flex items-center justify-center px-6 py-3 gap-2 border-2 transition ${isSubmitting
+                  ? "bg-gray-400 text-gray-600 border-gray-400 cursor-not-allowed"
+                  : "bg-blue-500 text-white border-blue-500 hover:bg-blue-600 hover:border-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 cursor-pointer"
+                  }`}
               >
                 {isSubmitting ? "Sending..." : "Send Message"} <FiSend />
               </button>
@@ -293,7 +290,7 @@ const Contact = () => {
 
               <div className="flex items-center gap-4">
                 <div className="p-3 bg-purple-100 dark:bg-purple-900/30 rounded-lg">
-                  <FiPhone className="w-5 h-5 text-purple-600 dark:text-purple-400" />
+                  <FiClock className="w-5 h-5 text-purple-600 dark:text-purple-400" />
                 </div>
                 <div>
                   <h3 className="font-semibold">Response Time</h3>
@@ -306,7 +303,7 @@ const Contact = () => {
 
             {/* Social Links */}
             <div className="pt-8 border-t border-[var(--light-border)] dark:border-[var(--dark-border)]">
-              <h3 className="font-semibold mb-4">Connect Me</h3>
+              <h3 className="font-semibold mb-4">Connect with Me</h3>
               <div className="flex gap-4">
                 <a
                   href="https://www.linkedin.com/in/keyur-parmar-661447282/"

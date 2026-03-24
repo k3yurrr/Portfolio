@@ -1,14 +1,14 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
-import { TbFileDownload } from "react-icons/tb";
+import { TbFileDownload, TbArrowRight } from "react-icons/tb";
 import { FiGithub, FiLinkedin, FiMail } from "react-icons/fi";
 import Resume from "../data/Keyur_resume.pdf";
 import Tabs from "../components/Tabs";
-import { TbArrowRight } from "react-icons/tb";
 import ProjectBox from "../components/ProjectBox";
 import portfolioData from "../data/portfolioData";
 import BlogBox from "../components/BlogBox";
 import OptimizedImage from "../components/OptimizedImage";
+import Skills from "../components/Skills";
 import { updatePageMeta, seoData } from "../utils/seo";
 
 const HomePage = () => {
@@ -31,11 +31,7 @@ const HomePage = () => {
             <h1 className="font-calistoga text-6xl leading-tight">
               Hi, {portfolioData[0].About.name} here!
             </h1>
-            <p className="mt-4">
-              {/* {portfolioData[0].About.age}yo {portfolioData[0].About.role} from{" "}
-              {portfolioData[0].About.location} */}
-              {portfolioData[0].About.heading}
-            </p>
+            <p className="mt-4">{portfolioData[0].About.heading}</p>
             <p className="my-2">{portfolioData[0].About.subHeading}</p>
             <p className="mb-6">{portfolioData[0].About.intro}</p>
 
@@ -106,8 +102,13 @@ const HomePage = () => {
           </div>
         </section>
 
+        {/* technical skills */}
+        <section aria-label="Technical skills" className="w-full">
+          <Skills />
+        </section>
+
         {/* projects */}
-        <section aria-label="Featured projects">
+        <section aria-label="Featured projects" className="w-full">
           <div className="flex justify-between items-center">
             <h1 className="font-calistoga xs:text-xl md:text-3xl">
               featured projects
@@ -127,7 +128,7 @@ const HomePage = () => {
         </section>
 
         {/* blogs */}
-        <section aria-label="Recent blog posts">
+        <section aria-label="Recent blog posts" className="w-full">
           <div className="flex justify-between items-center">
             <h1 className="font-calistoga xs:text-xl md:text-3xl">
               recent blogs
@@ -135,6 +136,7 @@ const HomePage = () => {
             <Link
               to="https://cyberhub.hashnode.dev/"
               target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center gap-2 text-sm text-[var(--light-text-secondary)] hover:text-[var(--light-text)] dark:text-[var(--dark-text-secondary)] hover:dark:text-[var(--dark-text)]"
             >
               view more <TbArrowRight size={20} />
